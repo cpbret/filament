@@ -19,6 +19,7 @@ trait HasRoutes
     protected Closure | Native | null $authenticatedTenantRoutes = null;
 
     protected string | Closure | null $homeUrl = null;
+
     protected bool $needsHomeRedirectUrl = true;
 
     /**
